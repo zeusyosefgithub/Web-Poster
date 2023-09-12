@@ -1,0 +1,37 @@
+#Menu_Products #Menu_Products_Dropdown_LR{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Menu_Products_Dropdown_Left{
+    width: 150px;
+    bottom: 100px;
+    text-align: center;
+    border-bottom: 3px solid;
+    border-left: 3px solid;
+    padding: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#Menu_Products_Dropdown_Right{
+    width: 150px;
+    bottom: 100px;
+    text-align: center;
+    border-bottom: 3px solid;
+    border-right: 3px solid;
+    padding: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.SearchBox_List_Products_Shops{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #292b2c;
+    border: 3px solid dodgerblue;
+}

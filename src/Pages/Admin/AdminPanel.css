@@ -1,0 +1,387 @@
+.Admin_Panel_Page{
+    padding-top: 20px;
+    border: 3px solid black;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+#Admins_Options{
+    cursor: pointer;
+    font-size: 17px;
+    border: 3px solid black;
+    border-radius: 17px;
+    color: black;
+    font-weight: 600;
+    padding: 8px;
+}
+
+#Admins_Options_After{
+    cursor: pointer;
+    font-size: 17px;
+    border: 3px solid dodgerblue;
+    border-radius: 17px;
+    color: dodgerblue;
+    font-weight: 600;
+    padding: 8px;
+}
+
+#Admins_Options:hover{
+    color: dodgerblue;
+}
+
+.Icon_Edit_Admin_List{
+    font-weight: bolder;
+}
+
+.Icon_Edit_Admin_List:hover{
+    color: dodgerblue;
+}
+
+.Icon_Trash_Admin_List{
+    font-weight: bolder;
+}
+
+.Icon_Trash_Admin_List:hover{
+    color: red;
+}
+
+.Options_Sellers_List{
+    border: 2px solid dodgerblue;
+    padding: 13px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.Options_Admins_List div{
+    padding: 3px;
+}
+
+.Edit_Admin_Img{
+    width: 180px;
+    border-radius: 50%;
+}
+
+.List_Admins{
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.Seller_Box_List{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+    padding: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.Seller_Box_List:hover{
+    color: dodgerblue;
+    border-bottom: 2px solid dodgerblue;
+}
+
+.Edit_Span_Admin_Panel{
+    opacity: 0.7;
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    color: dodgerblue;
+    margin-top: 9px;
+}
+
+.Trash_Span_Admin_Panel{
+    opacity: 0.7;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 9px;
+    cursor: pointer;
+    font-size: 20px;
+    color: red;
+}
+
+.Edit_Span_Admin_Panel:hover{
+    opacity: 1;
+}
+
+.Trash_Span_Admin_Panel:hover{
+    opacity: 1;
+}
+
+.No_Shop_Span{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 9px;
+    font-size: 20px;
+    color: red;
+}
+
+.Edit_Span_Seller_Panel_Bar{
+    color: dodgerblue;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.Trash_Span_Seller_Panel_Bar{
+    color: red;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.Seller_Box_List:hover .Admin_Number{
+    border: 2px solid dodgerblue;
+    color: dodgerblue;
+}
+.Seller_Box_List:hover .Admin_Email{
+    border: 2px solid dodgerblue;
+}
+.Seller_Box_List:hover .Admin_Name{
+    border: 2px solid dodgerblue;
+}
+.Seller_Box_List:hover .Admin_Phone{
+    border: 2px solid dodgerblue;
+}
+.Seller_Box_List:hover .Admin_BirthDate{
+    border: 2px solid dodgerblue;
+}
+
+.Admin_Number{
+    width: 50px;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 3px;
+    font-weight: 800;
+    font-size: 19px;
+}
+
+.Admin_Email{
+    width: 270px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 3px;
+    font-weight: 800;
+}
+
+.Admin_Name{
+    width: 100px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 3px;
+    font-weight: 800;
+}
+
+.Admin_Phone{
+    width: 100px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 3px;
+    font-weight: 800;
+}
+
+.Admin_BirthDate{
+    width: 100px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 3px;
+    font-weight: 800;
+}
+
+.Have_Shop{
+    text-align: center;
+    color: dodgerblue;
+    margin: 3px;
+    padding: 3px;
+    margin-top: 9px;
+    font-size: 20px;
+
+}
+
+.Not_Have_Shop{
+    text-align: center;
+    color: red;
+    margin: 3px;
+    padding: 3px;
+    margin-top: 9px;
+    font-size: 20px;
+}
+
+.Box_All_Info_Seller_Admin_Panel{
+    height: 350px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    
+}
+
+::-webkit-scrollbar-track {
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: dodgerblue; 
+    border-radius: 10px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.Boxes_Info{
+    border: 2px solid black;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.Modal_Body_Edit_Seller{
+    border-bottom: 2px solid dodgerblue !important;
+    border-top: 2px solid dodgerblue !important;
+}
+
+.Shop_Seller_Img_Admin_Panel{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.List_Product_Seller_Admin_Panel{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.Product_Name_Admin_Panel{
+    width: 150px;
+    font-size: 16px;
+}
+
+.Product_Price_Admin_Panel{
+    width: 100px;
+    font-size: 16px;
+}
+
+.Product_See_Admin_Panel{
+    cursor: pointer;
+    border-bottom: 2px solid dodgerblue;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.Product_See_Admin_Panel:hover{
+    color: dodgerblue;
+}
+
+.Offer_Icon_List_Sellers{
+    width: 25px;
+    height: 25px;
+}
+
+.Old_New_Price_Sellers_List{
+    width: 130px;
+    font-size: 16px;
+}
+
+.Remove_Add_Offer_Sellers_List{
+    margin-top: 12px;
+    width: max-content;
+    display: flex;
+    padding: 4px;
+    margin-left: 25%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    opacity: 0.8;
+    color: white;
+}
+
+.Remove_Add_Offer_Sellers_List:hover{
+    opacity: 1;
+}
+
+.Border_New_Old_Price_Sellers_List{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.ClearInbox_Product_Sellers_List{
+    font-weight: 700;
+    cursor: pointer;
+    border-bottom: 2px solid dodgerblue;
+    width: fit-content;
+}
+
+.ClearInbox_Product_Sellers_List:hover{
+    color: dodgerblue;
+}
+
+.Two_Sides_List_Sellers_Admin_Panel{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .Two_Sides_List_Sellers_Admin_Panel{
+        flex-wrap: wrap;
+    }
+}
+
+.Add_Kind_Admin_Panel{
+    padding: 8px !important;
+    border-radius: 20px !important;
+}
+
+.Kind_Shops_Kinds{
+    width: 300px;
+    border: 2px solid black;
+    text-align: start;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 3px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.Trash_Span_Shops_Products_Kinds{
+    color: red;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ShopsProductsKinds_Box:hover{
+    border-bottom: 2px solid dodgerblue;
+}
+.ShopsProductsKinds_Box:hover .Kind_Shops_Kinds{
+    border: 2px solid dodgerblue;
+    color: dodgerblue;
+}
+
+.Cursor_Inbox_Shop_Admin{
+    cursor: pointer;
+}

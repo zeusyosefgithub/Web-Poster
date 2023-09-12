@@ -1,0 +1,44 @@
+.Serach_Icon{
+    padding: 5px;
+    padding-left: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+.Box_Search{
+    background-color: dodgerblue;
+    width: 100%;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.searchTerm{
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+    border: black 2px solid;
+}
+
+.search_box_Web_Poster{
+    margin: 20px !important;
+}
+
+.Card_Body_Search{
+    width: 100% !important;
+    height: 270px !important;
+    overflow-y: scroll;
+}
+
+.Card_Search_Box_Active{
+    z-index: 1 !important;
+    margin-top: 30px;
+    width: 100%;
+}
+.Card_Search_Box_disable{
+    display: none !important;
+}
+
+.Cursur_Products{
+    cursor: pointer;
+}
+

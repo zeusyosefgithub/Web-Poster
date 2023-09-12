@@ -1,0 +1,129 @@
+.Product{
+    color: white;
+    width:190px;
+    background-color: #292b2c;
+    border-radius: 20px;
+    border: 1px solid whitesmoke;
+    margin-top: 20px;
+    border: 3px solid whitesmoke;
+    font-weight: 600;
+}
+
+#Owned_Product{
+    background-color: dodgerblue;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: black;
+    
+}
+
+#Owned_Product_bottom{
+    background-color: dodgerblue;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: black;
+    
+}
+
+.Product:hover{
+    border: 3px solid dodgerblue;
+    color: dodgerblue;
+}
+
+.Product_Img{
+    width: 100%;
+    height: 170px;
+}
+
+.ProductNoHover{
+    color: white;
+    width:190px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#Icons_Product_Edit{
+    font-size: 18px;
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+#Icons_Product_Trash{
+    font-size: 18px;
+    color: red;
+    cursor: pointer;
+}
+
+#Span_Comment_Product{
+    cursor: pointer;
+    font-size: 22px;
+}
+
+#Span_Comment_Product:hover{
+    color: dodgerblue;
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    .Product{
+        width:180px;
+    }
+
+    .Product_Img{
+        width: 100%;
+        height: 160px;
+    }
+}
+
+#MUltiple_Img_With_Offer{
+    position: relative;
+}
+
+.lady-image {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#Collering_Owned_Products{
+    color: black !important;
+    font-weight: 600;
+}
+
+.lady-text {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    width: auto;
+    height: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: black;
+    border-radius: 20px;
+    letter-spacing:3px;
+}
+
+.Icon_Offer{
+    width: 30px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    border-radius: 5px;
+}
+
+.Icon_Offer_Remove{
+    width: 30px;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.New_Old_Price{
+    font-size: 12px;
+    margin: auto;
+}

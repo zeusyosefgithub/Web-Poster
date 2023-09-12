@@ -1,0 +1,141 @@
+#Offcav{
+    vertical-align: middle;
+}
+
+.Offcav_Body{
+    overflow-y: hidden !important;
+}
+
+#Icon_Button_Offac{
+    font-size: 20px;
+}
+
+#Offcav:hover{
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+#Links_Buttons a{
+    text-decoration: none;
+}
+
+#Menu_Buttons i{
+    float: right;
+    
+}
+
+#Menu_Bar{
+    background-color: aqua;
+}
+
+#Offcanvas_titel{
+    justify-content: space-around;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-bottom: 3px solid dodgerblue;
+}
+
+.Logout{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.Logout_Button_Offcanvas{
+    margin: 20px;
+    border-radius: 30px !important;
+    padding: 15px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-weight: bold !important;
+    background-color: black !important;
+    color: white !important;
+    border: 3px solid white !important;
+}
+
+.Logout_Button_Offcanvas:hover{
+    
+    color: dodgerblue !important;
+    border: 3px solid dodgerblue !important;
+}
+
+.Login_Logout_Button_Offcanvas{
+    margin: 50px;
+    border-radius: 30px !important;
+    padding: 15px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-weight: bold !important;
+    background-color: black !important;
+    color: white !important;
+    border: 3px solid white !important;
+}
+
+.Login_Logout_Button_Offcanvas:hover{
+    
+    color: dodgerblue !important;
+    border: 3px solid dodgerblue !important;
+}
+
+
+@media only screen and (max-width: 540px) {
+
+    #Offcav{
+        font-size: 11px;
+    }
+    #Icon_Button_Offac{
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+
+    #Offcav{
+        font-size: 0px;
+    }
+    #Icon_Button_Offac{
+        font-size: 18px;
+    }
+    
+}
+
+.New_Icons_CurrentUser{
+    display: flex;
+    font-size: larger;
+    margin-top: 15px;
+    font-weight: 600;
+    color: black;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+    justify-content: space-between;
+}
+
+.New_Icons_CurrentUser:hover{
+    border-bottom: 3px solid dodgerblue;
+    border-top: 3px solid dodgerblue;
+    color: dodgerblue;
+}
+
+.New_Icons_CurrentUser #Text_Icon_Button{
+    width: 100% !important;
+    font-size: 16px;
+}
+
+.New_Icons_CurrentUser #Icon_Button{
+    margin: auto !important;
+    font-size: 16px;
+}
+/* @media only screen and (max-width: 400px) {
+
+    #Offcav{
+        font-size: 0px;
+    }
+    #Icon_Button_Offac{
+        font-size: 18px;
+    }
+    
+} */

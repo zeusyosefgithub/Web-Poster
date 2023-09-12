@@ -1,0 +1,11 @@
+#madal_labels{
+    color:dodgerblue;
+}
+
+#Product_Change_Details{
+
+    max-width: 350px !important;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}

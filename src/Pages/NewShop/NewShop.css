@@ -1,0 +1,16 @@
+#NewShop_Page_Card{
+    width: 600px;
+    border-radius: 40px;
+}
+
+.New_Shop_Kinds{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+    border-radius: 8px;
+    border: 2px solid dodgerblue;
+}
+.New_Shop_Kinds:hover{
+    color: dodgerblue;
+}

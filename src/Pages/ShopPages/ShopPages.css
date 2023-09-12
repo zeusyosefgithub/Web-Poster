@@ -1,0 +1,126 @@
+#Shop_page{
+    margin-bottom: 40px;
+}
+
+.Header_Shop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.text {
+    display: flex;
+    color: black;
+    font-size: 16px;
+}
+  
+.Shop_Proprties{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left: 5px solid dodgerblue;
+    bottom: 0;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin: auto;
+}
+
+.Shop_Proprties div{
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.Shop_Titel{
+    text-align: center;
+    margin-bottom: 80px;
+    border-bottom: 3px dodgerblue solid;
+}
+
+.Shop_Products{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Shop_Titel1{
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 3px dodgerblue solid;
+}
+
+.Add_Product {
+    cursor: pointer;
+    padding: 5px;
+    font-weight: bold;
+    border: 3px solid whitesmoke;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Add_Product:hover {
+    color:dodgerblue;
+    border: 3px solid dodgerblue;
+    opacity: 1;
+}
+
+.Shop_Options{
+
+    display: block;
+    width: 300px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    margin-bottom: 30px; 
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 15px;
+}
+
+.Drop_Down_Cus_Opt{
+    z-index: 0;
+}
+
+#Image_Shop_Page{
+    border-radius: 30px;
+    border: 5px solid black;
+}
+
+
+
+a tr {
+    color: #212529 !important;
+}
+
+a tr:hover {
+    color: dodgerblue !important;
+}
+
+.Nav_Kinds_Shop_Page{
+    height: 200px !important;
+}
+
+.Discrption_Shop_Page{
+    inline-size: 100%;
+    overflow-wrap: break-word;
+}
+
+.Icons_Shop_Page_Info{
+    color: dodgerblue;
+    font-weight: 600;
+    font-size: 22px;
+    border: none !important;
+}
+
+.Shop_First_Window{
+    display: flex;
+    flex-wrap: wrap;
+}

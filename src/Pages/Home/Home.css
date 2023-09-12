@@ -1,0 +1,136 @@
+#Sticky_Bar_Home{
+    position: sticky;
+    top: 139px;
+    z-index: 1;
+}
+
+#draw {
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --border-size: 0.3rem;
+    border: var(--border-size) solid transparent;
+    border-image: conic-gradient(
+        from var(--angle),
+        #000000 0deg 90deg,
+        dodgerblue 180deg 270deg
+    )
+    1 stretch;
+    background-color: black;
+}
+
+#draw button{
+    border-radius: 20px !important;
+}
+
+#draw button:hover{
+    background-color: dodgerblue !important;
+}
+  
+@supports (background: paint(houdini)) {
+
+    @property --angle {
+      syntax: "<angle>";
+      initial-value: 0deg;
+      inherits: false;
+    }
+
+    @keyframes rotate {
+      to {
+        --angle: 360deg;
+      }
+    }
+  
+    #draw {
+        animation: rotate 3s linear infinite;
+    }
+}
+
+
+
+.Hiraontal_Box_Scrolling {
+
+    scroll-behavior: smooth;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    overflow-x: hidden;
+    width:100%;       
+    height:auto;
+}
+ 
+.selecHiraontal_Box_ScrollingtBox::-webkit-scrollbar-track {
+    background-color: #000000;
+    border-radius: 10px;
+}
+  
+.Hiraontal_Box_Scrolling::-webkit-scrollbar {
+    height: 12px;  
+}
+  
+.Hiraontal_Box_Scrolling::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: dodgerblue;    
+}
+
+
+
+
+#Arrows_Left{
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: bolder;
+    color: black;
+}
+
+#Arrows_Left:hover{
+    color: dodgerblue;
+}
+
+#Arrows_Right{
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: bolder;
+    color: black;
+}
+
+#Arrows_Right:hover{
+    color: dodgerblue;
+}
+
+
+#Arrows_Border_Hir_Box_Left{
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#Arrows_Border_Hir_Box_Right{
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+@media only screen and (max-width: 460px) {
+    #draw button{
+        width: fit-content !important;
+        
+        
+    }
+    #draw{
+        margin: auto !important;
+    }
+  }
+  
+
+
+  

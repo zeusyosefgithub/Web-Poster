@@ -1,0 +1,151 @@
+#Navigation__{
+    border-radius: 20px;
+    overflow: hidden;
+    border: 3px solid dodgerblue;
+
+}
+
+#Nav_Buttons{
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+}
+
+#Nav_Buttons:hover {
+    border-bottom: 2px solid dodgerblue;
+    color: dodgerblue;
+}
+
+#Nav_Buttons:hover p{
+    color: dodgerblue;
+}
+
+#Navgitaion_Dropdown{
+    position: fixed !important;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    margin: 40px;
+}
+
+.Scroll_To_Top{
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 0px 25px 6px 25px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top: 4px solid dodgerblue;
+}
+.Scroll_Options_Kinds{
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 0px 25px 6px 25px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top: 4px solid dodgerblue;
+}
+
+.Button_DropDown_List{  
+    cursor: pointer;
+}
+
+.Button_DropDown_List:hover{
+    color: dodgerblue;
+}
+
+#Button_To_Top{
+    cursor: pointer;
+}
+
+#Button_To_Top:hover{
+    color: dodgerblue;
+}
+
+.Dropdown_In_Nav_clos{
+    margin: 10px;
+}
+
+#Aroww_up{
+    margin: 10px;
+}
+
+#Sticky_NavBar{
+    position: sticky;
+    top: 139px;
+    
+}
+
+#Icon_Buttons_Navgition{
+    font-size: 20px;
+    
+}
+
+#Nav_Options{
+    vertical-align: middle;
+}
+
+
+
+/*---------------------------------------------------- @Media */
+
+@media only screen and (max-width: 540px) {
+
+    #Nav_Options{
+        font-size: 11px;
+    }
+
+    #Icon_Buttons_Navgition{
+        font-size: 11px;
+    }
+
+    #Navgitaion_Dropdown{
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #Sticky_NavBar{
+        position: sticky;
+        top: 128px;  
+    }
+}
+
+@media only screen and (max-width: 460px) {
+
+    #Nav_Options{
+        font-size: 0px;
+    }
+
+    #Icon_Buttons_Navgition{
+        font-size: 18px;
+    }
+
+    #Sticky_NavBar{
+        position: sticky;
+        top: 136px;  
+    }
+    
+}
+
+/* @media only screen and (max-width: 400px) {
+
+    #Nav_Options{
+        font-size: 0px;
+    }
+
+    #Icon_Buttons_Navgition{
+        font-size: 18px;
+    }
+    
+    #Sticky_NavBar{
+        position: sticky;
+        top: 136px;  
+    }
+    
+} */
+
+
+

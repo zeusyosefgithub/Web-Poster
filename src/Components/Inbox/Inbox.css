@@ -1,0 +1,45 @@
+#Card_Inbox_Shop{
+    overflow-y: scroll;
+    height: 410px;
+    width: 600px;
+}
+
+.Inbox_Style{
+    background-color: rgb(146, 201, 255);
+    margin: 20px;
+    min-height: 100px;
+    text-align: start;
+    border-radius: 50px;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 30px;
+}
+
+#Span_User_Comment{
+    padding: 10px;
+    border: black solid;
+    border-radius: 50%;
+    border-bottom-left-radius: 1%;
+    color: black;
+}
+
+.Clear_All_Messages{
+    cursor: pointer;
+}
+
+.Clear_All_Messages:hover{
+    color: dodgerblue;
+}
+
+#See_Product_Inbox{
+    font-weight: 700;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(146, 201, 255);
+    width: fit-content;
+}
+
+#See_Product_Inbox:hover{
+    color: dodgerblue;
+    border-bottom: 2px solid dodgerblue;
+}
+
+

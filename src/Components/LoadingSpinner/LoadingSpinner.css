@@ -1,0 +1,47 @@
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 10px solid black;
+  border-top: 10px solid dodgerblue; 
+  border-radius: 50%;
+  animation: spinner 1s linear infinite;
+}
+  
+.spinner-container {
+  z-index: 1;
+  position: fixed;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 0);
+}
+
+.spinner-container1 {
+  background-color: #292b2c;
+  z-index: 1;
+  position: fixed;
+  padding: 100%;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.Loging_On{
+  width: max-content;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+}

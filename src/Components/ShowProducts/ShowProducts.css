@@ -1,0 +1,86 @@
+.container_Products_Shops{
+    width: 100% !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-evenly !important;
+    padding-top: 0px !important;
+    padding-bottom: 40px !important;
+}
+
+#Sticky_NavBar{
+    z-index: 1;
+}
+
+.Button_DropDown_List{
+    color: red !important;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 15px;
+}
+
+.Z_Index_Drop_Down{
+    z-index: 1 !important;
+}
+
+.No_hover_DropDown{
+    height: 400px;
+    overflow-y: scroll;
+    background-color: #e2e3e5 !important;
+    z-index: 1 !important;
+}
+
+.Nav_Drop_Downs_Items_Kinds{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.Nav_Drop_Downs_Items_Kinds:hover{
+    color: dodgerblue;
+    border: 2px solid dodgerblue;
+}
+
+.No_hover_DropDown_NewShop{
+    height: 200px !important;
+    overflow-y: scroll;
+    background-color: white !important;
+    z-index: 1 !important;
+}
+
+.Sort_Nav_Products{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Z_Index_Kind_Sort{
+    z-index: 0 !important; 
+    
+}
+
+.Z_Index_Kind_Sort1{
+    background-color: black !important;
+    color: white !important;
+    padding: 10px !important;
+    border-radius: 25px !important;
+    font-size: 15px !important;
+    letter-spacing: 4px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+
+
+}
+
+.Z_Index_Kind_Sort1:hover{
+    color: dodgerblue !important;
+}
+
+.Z_Index_Kind_Sort1::after {
+    content: none !important;
+}
+

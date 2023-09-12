@@ -1,0 +1,213 @@
+#Profile_Page{
+    border-top: 5px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#Edite_Profile_Details{
+    margin: 5px;
+    cursor: pointer;
+}
+
+#Edite_Profile_Details:hover{
+    color: dodgerblue;
+}
+
+.container_Profile_Img{
+    position: relative;
+    text-align: center;
+    margin-right: 40px;
+}
+
+#Image_Shop_Profile{
+    width: 45rem;
+    height: 22rem;
+    border-radius: 20px;
+}
+
+.Profile_Details{
+    padding: 8px;
+    border-radius: 20px;
+    border: 2px solid black;
+    border-width: 5px;
+    background-color: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    display: flex;
+    justify-content: space-between;
+    transform: translate(-50%, -50%);
+}
+
+.Seller_Details{
+    font-weight: bolder;
+    margin-left: 8px;
+    text-align: left;
+}
+
+.Seller_Details p{
+    margin-top: 8px;
+    height: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Image_Profile{ 
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+}
+
+.Header_Rigth_Profile{
+    border-bottom: 5px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 60px;
+}
+
+.Options_Right_Profile{
+    /* background-color: rgb(211, 212, 211); */
+    padding-top: 20px;
+    border-bottom: 5px solid black;
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+    padding-bottom: 30px !important;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+#All_Impo_Titels{
+    color: black;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+
+.Profile_Group_Edit{
+    display: flex !important;
+    padding-bottom: 15px;
+}
+
+.Lable_Group_Edit{
+    width: 205px;
+    margin: auto;
+}
+
+.Lable_Group_Edit_Password{
+    width: 210px;
+    margin: auto;
+}
+
+#P_Options_Right{
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    border-bottom: 1px solid whitesmoke;
+}
+
+#P_Options_Right:hover{
+    color: dodgerblue;
+    border-bottom: 1px solid dodgerblue;
+}
+
+.Options_Right_ShopImg_Profile{
+    width: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    /* border-left: 2px solid dodgerblue;
+    border-radius: 20px; */
+}
+
+.Detials_Prodile_Edite_Options{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    border: 2px solid dodgerblue;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.Inbox_Buttons_To_Pages{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    border: 2px solid dodgerblue;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.Detials_Prodile_Edite_Profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.Button_Functions_Seller_Profile{
+    display: flex !important;
+    margin: 15px !important;
+    width: 300px !important;
+    justify-content: space-between !important;
+    background: none !important;
+    color: black !important;
+    padding: 10px !important;
+    border-radius: 20px !important;
+    font-weight: 700 !important;
+}
+
+.Button_Functions_Seller_Profile:hover{
+    background-color: dodgerblue !important;
+}
+
+#Profile_Left_Icons_Options{
+    color: dodgerblue;
+    font-size: 20px !important;
+
+}
+
+.Box_Options_Seller_Profile{
+    background-color: red;
+}
+
+.Options_Seller_Profile_Page{
+    margin-left: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left: 5px solid dodgerblue;
+}
+
+.Options_Seller_Profile_Page div{
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border-right: 3px solid whitesmoke;
+    padding: 5px;
+}
+
+.Options_Seller_Profile_Page div:hover{
+    color: dodgerblue;
+    cursor: pointer;
+    border-right: 3px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px ;
+}
+
+.First_Window_profile{
+    flex-wrap: wrap;
+}

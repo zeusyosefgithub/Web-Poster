@@ -1,0 +1,31 @@
+.Shop_Img{
+    width: 165px;
+    height: 165px;
+    border: 3px solid dodgerblue;
+    border-radius: 20px;
+}
+
+#Shop_Box_Style{
+    background-color: #292b2c;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 3px solid whitesmoke;
+    margin-top: 20px;
+}
+
+#Shop_Box_Style:hover{
+    opacity: 0.6;
+    border: 3px solid dodgerblue;
+}
+
+.Details_Shop_Page{
+    color: black;
+    background-color: white;
+    margin: auto;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 10px;
+}

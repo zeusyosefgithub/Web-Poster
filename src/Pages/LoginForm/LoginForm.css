@@ -1,0 +1,31 @@
+.Logo_Login_Page{
+    width: 40px;
+    height: 20px;
+}
+
+#Login_Page_Card{
+    width: 450px;
+    border-radius: 40px;
+}
+
+#SignUp_page_Card{
+    width: 700px;
+    border-radius: 40px;
+}
+
+.SignUp_Labels_Inputs{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.Form_Group_Sign_Up{
+    width: 360px;
+}
+
+.All_SignUp_Inputs_Img{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
